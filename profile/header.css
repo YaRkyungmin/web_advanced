@@ -1,0 +1,55 @@
+/* ------- 상단 네비게이션 -----  */
+body {
+    /* 요소에 최대 길이를 주고, margin:0 auto를 주면,
+    maring 좌우가 auto로 적용되며
+    가운데 정렬이 된다.
+     */
+    max-width: 1228px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .top-nav {
+    padding: 40px 10px;
+  
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .top-logo {
+    width: 97px;
+    height: 59px;
+  }
+  
+  .nav-items {
+    /* 정렬 */
+    display: flex;
+    justify-content: space-between; /* 가로 가운데 정렬 */
+    align-items: center; /* 세로 가운데 정렬 */
+    /* flex-item 사이의 간격 */
+    gap: 50px;
+  }
+  
+  .nav-items li {
+    /* 상단 메뉴 글자에 대한 스타일 */
+    list-style: none;
+    color: #666;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px; /* 130% */
+  }
+  
+  #top-nave-link {
+    color: #666;
+    text-decoration: none;
+   }
+
+  .top-sns {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  .top-sns img {
+    width: 30px;
+    height: 30px;
+  }
