@@ -1,0 +1,7 @@
+body {
+  background: linear-gradient(
+    to bottom right,
+    #9d9c9b,
+    #5a6791
+  ); /* 그라데이션 배경 설정 */
+}
